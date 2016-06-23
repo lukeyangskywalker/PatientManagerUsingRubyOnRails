@@ -7,7 +7,7 @@ class CreateEncounters < ActiveRecord::Migration
       t.string :location
       t.string :room
       t.string :bed
-      t.references :patientId, index: true, foreign_key: true
+      t.references :patient, index: true, foreign_key: true
 
       t.timestamps null: false
     end

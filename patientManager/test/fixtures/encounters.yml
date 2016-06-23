@@ -7,7 +7,7 @@ one:
   location: MyString
   room: MyString
   bed: MyString
-  patientId_id: 
+  patient_id: 
 
 two:
   visitNumber: MyString
@@ -16,4 +16,4 @@ two:
   location: MyString
   room: MyString
   bed: MyString
-  patientId_id: 
+  patient_id: 

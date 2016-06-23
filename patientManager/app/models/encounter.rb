@@ -1,3 +1,7 @@
 class Encounter < ActiveRecord::Base
-  belongs_to :patientId
+  # many to one to patient
+  belongs_to :patient
+
+  validates :visitNumber, presence: true
+  validates :admittedAt, presence: true
 end
