@@ -13,7 +13,7 @@
       <td><%= patient.lastName %></td>
       <td><%= link_to 'Show', patient_path(patient) %></td>
       <td><%= link_to 'Edit', edit_patient_path(patient) %></td>
-      <td><%= link_to 'Destroy', patient_path(patient),
+      <td><%= link_to 'Destroy', patients_path,
               method: :delete,
               data: { confirm: 'Are you sure?' } %></td>
     </tr>

@@ -1,0 +1,13 @@
+<h1>Patient Details</h1>
+<p>
+  <strong>First Name:</strong>
+  <%= @patient.firstName %>
+</p>
+
+<p>
+  <strong>Middle Name:</strong>
+  <%= @patient.middleName %>
+</p>
+
+
+<%= button_to 'Back', patients_path, method: :get %>
